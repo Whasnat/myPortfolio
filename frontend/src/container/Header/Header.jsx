@@ -24,7 +24,7 @@ const Header = () => {
       >
         <div className="app__header-badge">
           <div className="badge-cmp app__flex">
-            <span>(◔̃ ᴗ◔̃)👌</span>
+            <span>(◔̃ ᴗ◔̃)</span>
             <div style={{ marginLeft: 20 }}>
               <p className="p-text">Hello, I'm</p>
               <h1 className="head-text">Waliul Hasnat</h1>
@@ -42,11 +42,12 @@ const Header = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__header-img"
       >
-        <img src={images.profile} alt="profile" />
+        <img src={images.avatar} alt="profile" />
         <motion.img
           whileInView={{ scale: [0, 1] }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          src={images.circle}
+          // src={images.circle}
+          src={images.spiralCircle}
           alt="profile_circle"
           className="overlay_circle"
         />
@@ -60,7 +61,6 @@ const Header = () => {
         {[
           images.java,
           images.spring,
-          images.javascript,
           images.react,
           images.node,
           images.python,

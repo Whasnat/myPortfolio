@@ -7,6 +7,12 @@ import node from "../assets/node.png";
 import spring from "../assets/spring.png";
 import python from "../assets/python.png";
 import javascript from "../assets/javascript.png";
+import orangeBack from "../assets/orangeBack.svg";
+import batman from "../assets/batman.svg";
+import spiralCircle from "../assets/spiralCircle.svg";
+import avatar from "../assets/avatar.svg"
+import darkbg from "../assets/darkbg.png";
+import lightbg from "../assets/lightbg.jpg";
 
 export default {
   logo,
@@ -18,4 +24,10 @@ export default {
   spring,
   python,
   javascript,
+  orangeBack,
+  batman,
+  spiralCircle,
+  avatar,
+  darkbg,
+  lightbg,
 };

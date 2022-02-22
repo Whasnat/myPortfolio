@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: rgba(255, 255, 255, 0.39);
+  background-color: rgba(131, 214, 247, 0.39);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -51,13 +51,14 @@
     }
 
     a {
-      color: var(--blue-color);
+      color: var(--white-color);
       text-decoration: none;
       flex-direction: column;
       text-transform: uppercase;
       font-weight: 600;
       transition: all 0.3s ease-in-out;
-      text-shadow: rgba(52, 53, 45, 0.1);
+      text-shadow: rgba(52, 53, 45, 0.5);
+      z-index: 2;
 
       &:hover {
         color: var(--secondary-color);
@@ -84,7 +85,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--blue-color);
+  background-color: var(--white-color);
 
   svg {
     width: 70%;
@@ -109,7 +110,7 @@
     flex-direction: column;
 
     background: url("../../assets/bgWhite.png");
-    background-color: var(--white-color);
+    background-color: var(--blue-color);
     background-size: cover;
     background-repeat: repeat;
 
@@ -138,7 +139,7 @@
         margin: 1rem;
 
         a {
-          color: var(--blue-color);
+          color: var(--white-color);
           text-decoration: none;
           font-size: 1rem;
           text-transform: uppercase;
