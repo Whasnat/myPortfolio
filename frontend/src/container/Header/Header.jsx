@@ -13,6 +13,7 @@ const scaleVariants = {
     },
   },
 };
+
 const Header = () => {
   return (
     <div id="home" className="app__header app__flex">
@@ -31,8 +32,8 @@ const Header = () => {
           </div>
 
           <div className="tag-cmp app__flex">
-            <p className="p-text">Software Engineer</p>
-            <p className="p-text">Web Developer</p>
+            <p className="p-text">I build stuff for the internet</p>
+            <p className="p-text"></p>
           </div>
         </div>
       </motion.div>
@@ -59,10 +60,10 @@ const Header = () => {
         {[
           images.java,
           images.spring,
+          images.javascript,
           images.react,
           images.node,
           images.python,
-          images.javascript,
         ].map((circle, index) => (
           <div className="circle-cmp app_flex" key={`circle-${index}`}>
             <img src={circle} alt="circle" />
