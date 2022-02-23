@@ -10,9 +10,14 @@ import javascript from "../assets/javascript.png";
 import orangeBack from "../assets/orangeBack.svg";
 import batman from "../assets/batman.svg";
 import spiralCircle from "../assets/spiralCircle.svg";
-import avatar from "../assets/avatar.svg"
+import avatar from "../assets/avatar.svg";
 import darkbg from "../assets/darkbg.png";
 import lightbg from "../assets/lightbg.jpg";
+import about1 from "../assets/about_1.png";
+import about2 from "../assets/about_2.png";
+import about3 from "../assets/about_3.png";
+import about4_1 from "../assets/about_4.png";
+import about4_2 from "../assets/about_4.jpg";
 
 export default {
   logo,
@@ -30,4 +35,9 @@ export default {
   avatar,
   darkbg,
   lightbg,
+  about1,
+  about2,
+  about3,
+  about4_1,
+  about4_2,
 };
