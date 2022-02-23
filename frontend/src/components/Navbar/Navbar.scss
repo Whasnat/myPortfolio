@@ -85,12 +85,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--white-color);
+  background-color: var(--blue-color);
 
   svg {
     width: 70%;
     height: 70%;
-    color: var(--white-color);
+    color: var(--secondary-color);
   }
 
   div {
@@ -139,7 +139,7 @@
         margin: 1rem;
 
         a {
-          color: var(--white-color);
+          color: var(--blue-color);
           text-decoration: none;
           font-size: 1rem;
           text-transform: uppercase;
