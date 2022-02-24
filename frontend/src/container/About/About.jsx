@@ -4,6 +4,7 @@ import { images } from "../../constants";
 
 import "./About.scss";
 
+//demo data
 const abouts = [
   {
     title: "Software Engineer",
