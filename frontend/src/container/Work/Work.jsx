@@ -59,7 +59,7 @@ const Work = () => {
               onClick={() => handleWorkFilter(item)}
             >
               {item}
-            </div>
+            </div>  
           ))}
         </div>
 
