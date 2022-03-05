@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
 import { client, urlFor } from "../../client";
+import { AppWrap } from "../../wrapper";
 
 import "./Skills.scss";
 
@@ -26,10 +27,9 @@ const Skills = () => {
         <h3 className="head-text">
           <span>Skills</span> & <span>Experience</span>
         </h3>
-
         <div className="app__skill-item">
           <motion.div className="app__skill-list">
-            {Skills.map((skill) => (
+            {skills.map((skill) => (
               <motion.div
                 whileInView={{ opacity: [0, 1] }}
                 transition={{ duration: 0.5 }}
@@ -42,6 +42,7 @@ const Skills = () => {
                 >
                   <img src={urlFor(skill.icon)} alt={skill.name} />
                 </div>
+                <p className="p-text">{skill.name}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -51,4 +52,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default AppWrap(Skills, "Skills");
