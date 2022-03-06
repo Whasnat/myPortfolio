@@ -27,13 +27,13 @@ const Skills = () => {
         <h3 className="head-text">
           <span>Skills</span> & <span>Experience</span>
         </h3>
-        <div className="app__skill-item">
-          <motion.div className="app__skill-list">
+        <div className="app__skills-container">
+          <motion.div className="app__skills-list">
             {skills.map((skill) => (
               <motion.div
                 whileInView={{ opacity: [0, 1] }}
                 transition={{ duration: 0.5 }}
-                className="app__skill-item"
+                className="app__skills-item app_flex"
                 key={skill.name}
               >
                 <div
@@ -52,4 +52,4 @@ const Skills = () => {
   );
 };
 
-export default AppWrap(Skills, "Skills");
+export default AppWrap(Skills, "skills");
