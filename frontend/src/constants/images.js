@@ -18,6 +18,8 @@ import about2 from "../assets/about_2.png";
 import about3 from "../assets/about_3.png";
 import about4_1 from "../assets/about_4.png";
 import about4_2 from "../assets/about_4.jpg";
+import email from "../assets/email.png";
+import mobile from "../assets/mobile.png";
 
 export default {
   logo,
@@ -40,4 +42,6 @@ export default {
   about3,
   about4_1,
   about4_2,
+  email,
+  mobile
 };
