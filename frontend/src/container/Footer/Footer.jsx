@@ -36,8 +36,8 @@ const Footer = () => {
               type="text"
               placeholder="Your Name"
               name="name"
-              // value={name}
-              // onChange={handleChangeInput}
+              value={name}
+              onChange={handleChangeInput}
             />
           </div>
           <div className="app__flex">
@@ -46,23 +46,23 @@ const Footer = () => {
               type="email"
               placeholder="Your Email"
               name="email"
-              // value={email}
-              // onChange={handleChangeInput}
+              value={email}
+              onChange={handleChangeInput}
             />
           </div>
-          
+
           <div>
             <textarea
               className="p-text"
               placeholder="Your Message"
-              // name={messsage}
-              // value={message}
-              // onChange={handleChangeInput}
+              name={messsage}
+              value={message}
+              onChange={handleChangeInput}
             />
           </div>
-          {/* <button type="button" className="p-text" onClick={handleSUBMIT}> */}
+          <button type="button" className="p-text" onClick={handleSUBMIT}>
           Send Message
-          {/* </button> */}
+          </button>
         </div>
       </div>
     </>
