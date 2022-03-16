@@ -36,7 +36,7 @@ const Footer = () => {
       setIsSubmitted(true);
     });
 
-    client.create();
+    // client.create();
   };
 
   return (

@@ -1,5 +1,5 @@
 import logo from "../assets/logo.png";
-import profile from "../assets/profile.png";
+// import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
 import java from "../assets/java.png";
 import react from "../assets/react.png";
@@ -11,7 +11,7 @@ import orangeBack from "../assets/orangeBack.svg";
 import batman from "../assets/batman.svg";
 import spiralCircle from "../assets/spiralCircle.svg";
 import avatar from "../assets/avatar.svg";
-import darkbg from "../assets/darkbg.png";
+// import darkbg from "../assets/darkbg.png";
 import lightbg from "../assets/lightbg.jpg";
 import about1 from "../assets/about_1.png";
 import about2 from "../assets/about_2.png";
@@ -23,7 +23,7 @@ import mobile from "../assets/mobile.png";
 
 export default {
   logo,
-  profile,
+  // profile,
   circle,
   java,
   node,
@@ -35,7 +35,7 @@ export default {
   batman,
   spiralCircle,
   avatar,
-  darkbg,
+  // darkbg,
   lightbg,
   about1,
   about2,
