@@ -76,7 +76,7 @@ const Footer = () => {
               />
             </div>
 
-            <div>
+            <div className="app__flex">
               <textarea
                 className="p-text"
                 placeholder="Your Message"
