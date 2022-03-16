@@ -55,13 +55,13 @@ const Footer = () => {
 
       {!isSubmitted ? (
         <div className="app__footer-form app__flex">
-          <div className="app__flex"></div>
+          {/* <div className="app__flex"></div> */}
           <div className="app__footer-form app__flex">
             <div className="app__flex">
               <input
                 className="p-text"
                 type="text"
-                placeholder="Your Name"
+                placeholder="Hi there, Introduce yourself"
                 name="name"
                 value={name}
                 onChange={handleChangeInput}
@@ -71,7 +71,7 @@ const Footer = () => {
               <input
                 className="p-text"
                 type="email"
-                placeholder="Your Email"
+                placeholder="You can leave your email here"
                 name="email"
                 value={email}
                 onChange={handleChangeInput}
@@ -81,14 +81,14 @@ const Footer = () => {
             <div className="app__flex">
               <textarea
                 className="p-text"
-                placeholder="Your Message"
+                placeholder="Don't forget to write your message"
                 name="message"
                 value={message}
                 onChange={handleChangeInput}
               />
             </div>
             <button type="button" className="p-text" onClick={handleSUBMIT}>
-              {loading ? "Sending" : "Sent message"}
+              {loading ? "Sending" : "Send message"}
             </button>
           </div>
         </div>
