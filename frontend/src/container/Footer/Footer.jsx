@@ -35,6 +35,8 @@ const Footer = () => {
       setLoading(false);
       setIsSubmitted(true);
     });
+
+    client.create();
   };
 
   return (
@@ -43,7 +45,7 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
-          <a href="mailto:w.hasnat94@gmail.com">whrahat@gmail.com</a>
+          <a href="mailto:whrahat@gmail.com">whrahat@gmail.com</a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="mobile" />
@@ -80,7 +82,7 @@ const Footer = () => {
               <textarea
                 className="p-text"
                 placeholder="Your Message"
-                name={message}
+                name="message"
                 value={message}
                 onChange={handleChangeInput}
               />

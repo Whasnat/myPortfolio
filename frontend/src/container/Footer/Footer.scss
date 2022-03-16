@@ -91,10 +91,6 @@
       padding: 1rem;
       border: none;
       border-radius: 7px;
-      // margin-left: 1rem;
-      // margin-right: 1rem;
-      // background-color: var(--primary-color);
-
       font-family: var(--font-base);
       color: var(--secondary-color);
       outline: none;
@@ -125,7 +121,7 @@
     cursor: pointer;
 
     &:hover {
-      transition:cubic-bezier(0.895, 0.03, 0.685, 0.22);
+      transition: cubic-bezier(0.895, 0.03, 0.685, 0.22);
       background-color: #2596be;
     }
   }
